@@ -3,7 +3,11 @@ import Header from "~/components/Header.vue";
 </script>
 
 <template>
-  <Header /><!--
+  <UContainer>
+    <Header />
+    <slot class="p-2" />
+  </UContainer>
+  <!--
   <UHorizontalNavigation :links="links">
     <template #default="{ link }">
       <span class="group-hover:text-primary relative">{{ link.label }}</span>
@@ -15,5 +19,4 @@ import Header from "~/components/Header.vue";
       >Cerrar Sesión</UButton
     >
   </template> -->
-  <slot />
 </template>

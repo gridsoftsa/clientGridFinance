@@ -61,6 +61,10 @@ const linksAuth = [
 <template>
   <UHorizontalNavigation
     :links="isAuthenticated ? linksAuth : links"
-    class="border-b border-gray-200 dark:border-gray-800 max-w-7xl mx-auto"
+    class="border-b border-gray-200 dark:border-gray-800 mx-auto"
   />
+  <!-- <UVerticalNavigation
+    :links="isAuthenticated ? linksAuth : links"
+    class="border-r border-gray-200 dark:border-gray-800 h-full w-1/6"
+  /> -->
 </template>
