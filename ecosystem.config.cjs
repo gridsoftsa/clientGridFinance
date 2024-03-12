@@ -1,12 +1,12 @@
 module.exports = {
   apps: [
     {
-      name: 'Tienda Dercocenter',
+      name: "GridFinance",
       port: 3000,
-      exec_mode: 'cluster',
+      exec_mode: "cluster",
       instances: 1,
-      args: 'start',
-      script: './.output/server/index.mjs'
-    }
-  ]
-}
+      args: "start",
+      script: "./.output/server/index.mjs",
+    },
+  ],
+};

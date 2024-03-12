@@ -1,6 +1,10 @@
 export default defineAppConfig({
   ui: {
-    primary: "green",
+    primary: "red",
     gray: "cool",
+    global: true,
+    icons: ["heroicons"],
+    disableGlobalStyles: false,
+    safelistColors: ["primary"],
   },
 });
